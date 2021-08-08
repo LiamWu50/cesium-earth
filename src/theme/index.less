@@ -1,0 +1,35 @@
+@import './scrollbar.less';
+
+html,
+body,
+#app,
+#root {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+//定义主题颜色
+@themeColor: #2d5df8;
+@themeHoverColor: rgba(45,93,248, 0.9);
+@bgaColor: rgba(5, 7, 12, 0.8);
+@lightBgaColor: rgb(20, 20, 20);
+@lightColor: #e15f41;
+@lightBgColor: rgba(225, 95, 65, 0.8);
